@@ -1,0 +1,15 @@
+{
+  "name": "comissoes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "comissoes": "tsx calculo-comissoes/comissoes.ts",
+    "estoque": "tsx calculo-estoque/movimentacoes.ts",
+    "juros": "tsx calculo-juros/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}
