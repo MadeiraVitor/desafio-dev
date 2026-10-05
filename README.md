@@ -14,6 +14,16 @@ Na primeira execução, instale as dependências:
 npm install
 ```
 
+Para executar os testes automatizados:
+
+```bash
+npm test
+```
+
+Os testes cobrem as faixas-limite de comissão, saídas de estoque iguais e
+superiores ao estoque disponível e o cálculo de juros para vencimentos hoje,
+ontem, amanhã e na virada do dia.
+
 ## 1. Cálculo de comissões
 
 O programa lê as vendas do arquivo `calculo-comissoes/vendas.json`, calcula a
